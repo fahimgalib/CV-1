@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(68, 66, 66, 0.808);
+}
+
+a {
+    display: inline-block;
+}
+
+.full {
+    height: 1206px;
+    width: 100%;
+}
+
+.main_continer {
+    height: 100%;
+    width: 1600px;
+    background-color: #fff;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.profile {
+    height: 100%;
+    width: 30%;
+    background-color: #fff;
+    float: left;
+}
+
+.sub_pro1 {
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    float: left;
+    position: relative;
+}
+
+.sub_pro2 {
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    float: left;
+}
+
+.lft_row3 {
+    height: 1150px;
+    width: 20%;
+    border: 2px solid black;
+    background-color: #ffffff;
+    position: absolute;
+    top: 20px;
+    left: 220px;
+}
+
+.lft_row1 {
+    height: 50%;
+    width: 100%;
+    background-color: #E1EEF6;
+}
+
+.lft_row2 {
+    height: 50%;
+    width: 100%;
+    background-color: #DBDAD6;
+}
+
+.propic {
+    height: 25%;
+    width: 100%;
+}
+
+.propic img {
+    height: 80%;
+    width: 60%;
+    padding: 15px 0 0px 90px;
+}
+
+.aboutme {
+    height: 25%;
+    width: 100%;
+}
+
+.aboutme h2 {
+    font-family: monospace;
+    letter-spacing: 15px;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+.aboutme p {
+    font-family: monospace;
+    padding-left: 40px;
+    padding: 15px 45px 0px 45px;
+    font-weight: bold
+}
+
+.expertise {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.expertise ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.expertise h2 {
+    font-family: monospace;
+    letter-spacing: 15px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.expertise ul li a {
+    padding: 15px;
+    display: block;
+    color: rgb(84, 90, 3);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 2px rgb(84, 90, 3);
+}
+
+.expertise ul li a:hover {
+    border-bottom: solid;
+    letter-spacing: 10px;
+}
+
+.Contact {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.Contact h2 {
+    font-family: monospace;
+    letter-spacing: 15px;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    color: blue;
+    font-family: monospace;
+}
+
+button:hover {
+    width: 100px;
+    height: 50px;
+    color: darkred;
+    border: 2px solid black;
+    padding-left: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* End profile */
+
+
+/* Start des */
+
+.Des {
+    height: 100%;
+    width: 70%;
+    float: right;
+    background-color: #e1eef681;
+}
+
+
+/* END des */
+
+
+/* Start Dev Secsion */
+
+.head_bar {
+    height: 15%;
+    width: 100%;
+}
+
+.Edu_bar {
+    height: 30%;
+    width: 100%;
+}
+
+.exp_bar {
+    height: 55%;
+    width: 100%;
+}
+
+
+/* End Dev Secsion */
+
+.head_bar h1 {
+    font-family: monospace;
+    font-weight: 800;
+    font-size: xxx-large;
+    letter-spacing: 25px;
+    padding: 40px 0 0 35px;
+    text-transform: uppercase;
+}
+
+.head_bar P {
+    font-family: monospace;
+    font-weight: 400;
+    font-size: small;
+    letter-spacing: 10px;
+    padding: 0px 0 0 35px;
+    text-transform: uppercase;
+}
+
+.head_bar span {
+    font-family: -webkit-body;
+    font-weight: 800;
+    font-size: larger;
+    letter-spacing: 20px;
+    padding: 40px 0 0 35px;
+    text-transform: uppercase;
+}
+
+.title_bar1 {
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+.title_bar1 h1 {
+    padding: 0px 25px;
+    font-family: monospace;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.dec_bar1 {
+    height: 40%;
+    width: 100%;
+}
+
+.skill_bar {
+    height: 40%;
+    width: 100%;
+}
+
+.PSbar {
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+.PSbar1 {
+    height: 80%;
+    width: 100%;
+    text-align: center;
+}
+
+.PSbar h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.bar1 {
+    height: 80%;
+    width: 100%;
+    background-color: rgb(245, 46, 46);
+}
+
+.decbar1 h2 {
+    padding: 0px 15px;
+    font-family: monospace;
+    font-size: 23px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+
+.decbar1 h3 {
+    padding: 0px 25px;
+    font-family: monospace;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.decbar1 p {
+    padding: 0px 39px;
+    font-family: monospace;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.decbar2 h2 {
+    padding: 0px 15px;
+    font-family: monospace;
+    font-size: 23px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+
+.decbar2 h3 {
+    padding: 0px 25px;
+    font-family: monospace;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.decbar2 p {
+    padding: 0px 39px;
+    font-family: monospace;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+
+/*3rd dev start*/
+
+.exp_title_bar {
+    height: 15.1%;
+    width: 100%;
+    text-align: center;
+}
+
+.exp_dec_bar1 {
+    height: 28.3%;
+    width: 100%;
+}
+
+.exp_dec_bar2 {
+    height: 28.3%;
+    width: 100%;
+}
+
+.exp_dec_bar3 {
+    height: 28.3%;
+    width: 100%;
+}
+
+
+/*3rd dev END*/
+
+.exp_title_bar h1 {
+    font-family: monospace;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.exp_dec_bar1 h2 {
+    padding: 0px 25px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    text-transform: initial;
+    font-size: 35px;
+    text-align: center;
+    border: 2px solid rgb(94, 8, 8);
+}
+
+.exp_dec_bar1 h3 {
+    padding: 0px 25px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    text-transform: initial;
+    font-size: 18px;
+}
+
+.exp_dec_bar1 p {
+    padding: 0px 25px;
+    font-family: monospace;
+}
+
+.exp_dec_bar2 h2 {
+    padding: 0px 25px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    text-transform: initial;
+    font-size: 35px;
+    text-align: center;
+    border: 2px solid rgb(94, 8, 8);
+}
+
+.exp_dec_bar2 h3 {
+    padding: 0px 25px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    text-transform: initial;
+    font-size: 18px;
+}
+
+.exp_dec_bar2 p {
+    padding: 0px 25px;
+    font-family: monospace;
+}
+
+.exp_dec_bar3 h2 {
+    padding: 0px 25px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    text-transform: initial;
+    font-size: 35px;
+    text-align: center;
+    border: 2px solid rgb(94, 8, 8);
+}
+
+.exp_dec_bar3 h3 {
+    padding: 0px 25px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    text-transform: initial;
+    font-size: 18px;
+}
+
+.exp_dec_bar3 p {
+    padding: 0px 25px;
+    font-family: monospace;
+}
+
+.bar {
+    width: 100%;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {
+    width: 90%;
+    background-color: #4CAF50;
+}
+
+.css {
+    width: 80%;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 65%;
+    background-color: #f44336;
+}
+
+.Contact img {
+    height: 50px;
+    width: 50px;
+}
